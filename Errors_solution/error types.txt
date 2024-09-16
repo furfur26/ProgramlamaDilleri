@@ -1,0 +1,36 @@
+                                          Error Types
+                                                                              
+                                                                                       2211502041 Furkan Hancı
+
+
+1. Syntax Errors
+
+-Kodu yazan kişinin kodun kurallarına uygun kodlama yapmadığında ortaya çıkan yazımsal hata türüdür.
+
+Örneğin system.out.println("Kodu yazdır.") Kodunda System.out.println'de S harfinin küçük yazılması sonucu hata çıkar.
+
+2. Logic Errors
+
+-Farkedilmesi en zor hata türü olabilir. Kodu çalıştırdığımızda her şey normal haliyle çalışır gibi görünür fakat programın sonuçları istediğimiz gibi olmaz.
+
+3. Compilation Errors
+
+-Compiler'dan kaynaklı ortaya çıkan sorunlardır, compiler'ın yazdığımız kodu alt seviye koda dönüştüremediği zaman ortaya çıkar.
+
+4. Runtime Errors
+
+-Programın çalışmasına engel olan yazılımsal veya donanım hatasıdır, genellikle son kullanıcıda farkedilir. 
+
+5. Arithmetic Errors
+
+-Bir çeşit Logic Error'dür fakat matematiksel işlemler içeririr, mesela herhangi bir sayıyı sıfıra bölemeyiz vs. 
+
+6. Resource Errors
+
+-Yazdığımız program için bilgisayarımız bir takım kaynak kullanır, fakat kodumuz bilgisayarın sahip olduğu kaynaktan fazlasını kullanmak isterse Resource Error'la karşılaşabiliriz.
+
+Örneğin içinden çıkılamayan bir döngü yazdığımızda bilgisayar kaynağını tüketene kadar onu döndürecek ve sonunda hatayla karşılaşacağız.
+
+7. Interface Errors
+
+-Bir arayüzde tanımlanan metotları sınıfın olması gerektiği şekilde uygulayamaması veyahut bir sınıfın arayüzü uygulamamasında ortaya çıkan hatalardır. Bunun sonucunda programımız olması gerektiği gibi çalışmaz.
